@@ -1,0 +1,41 @@
+footer{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 25px 40px;
+    background-color: #000;
+    overflow: hidden;
+    .logo-pwc {
+        @include centerObj();
+        width: 8vw;
+        height: auto;
+        padding: 25px;
+    }
+    h1 {
+        color: #9c9c9c;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 30px;
+        text-align: center;
+    }
+    p {
+        color:#FFF;
+        font-family: arial;
+        font-size: 20px;
+        padding: 30px;
+        text-align: center;
+        width: 28%;
+        a{
+            font-weight: bold;
+            text-decoration:none;
+            color:#FFF;
+        }
+    }
+    .toLeft{
+        margin-left: 13vw;
+    }
+    .toRight{
+        margin-right: 13vw;
+    }
+}

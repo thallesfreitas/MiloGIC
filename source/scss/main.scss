@@ -1,0 +1,33 @@
+@mixin centerObj(){
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+}
+
+@mixin rotate($v){
+    -ms-transform: rotate($v+deg); 
+    -webkit-transform: rotate($v+deg); 
+    transform: rotate($v+deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation= $v ); 
+}   
+
+.toLeft{float:left;}
+.toRight{float:right;}
+
+@import 'base/base';
+@import 'base/header';
+@import 'base/menu';
+@import 'vendor/about';
+@import 'vendor/rules';
+@import 'vendor/prize';
+@import 'vendor/promote';
+@import 'vendor/faq';
+@import 'base/footer';
+
+@media (max-width: 1025px) {
+	@import 'base/menu1024';
+	@import 'vendor/about1024';
+}
+
+

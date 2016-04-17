@@ -1,0 +1,16 @@
+<nav class="main-nav" role="navigation" >
+    <ul class="nav local-scroll">
+        <li class="hideScrollTop" ><a href="#home"><img src="assets/images/gic/logo-menu.png" /></a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#rules">rules</a></li>
+        <li><a href="#prize">prizes</a></li>
+        <li><a href="#faq">faqs</a></li>
+        <li class="lastest"><a href="#promote">promote</a></li>
+        <li class="hideScrollTop newLastest">
+            <div class="bts">
+                <a href="#" class="btn">Download entry form</a>
+               <a href="#" class="btn">Submit entry form</a>
+           </div>
+        </li>
+    </ul>
+</nav>

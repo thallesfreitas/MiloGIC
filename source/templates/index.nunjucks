@@ -1,0 +1,732 @@
+<!-- index.nunjucks -->
+{% extends "layouts/default.nunjucks" %}
+
+{% block title %}Global Innovation Challenge 2016{% endblock %}
+
+{% block content %} 
+
+<nav class="main-nav" role="navigation" >
+    <ul class="nav local-scroll">
+        <li class="hideScrollTop" ><a href="#home"><img src="assets/images/gic/logo-menu.png" /></a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#rules">rules</a></li>
+        <li><a href="#prize">prizes</a></li>
+        <li><a href="#faq">faqs</a></li>
+        <li class="lastest"><a href="#promote">promote</a></li>
+        <li class="hideScrollTop newLastest">
+            <div class="bts">
+            <a target="_blank" href="assets/images/gic/pwc_gic_form.pdf" class="btn">Download entry form</a>
+            <a target="_blank" href="https://pwc-spark.com/create-idea!input.jspa?containerType=14&containerID=2698" class="btn">Submit entry form</a>
+           </div>
+        </li>
+    </ul>
+</nav>
+
+    <div
+        class="parallax-image-wrapper parallax-image-wrapper-100"
+        data-anchor-target="#header-intro + .gap"
+        data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+        data-top-bottom="transform:translate3d(0px, 0%, 0px)"
+        >
+        <div
+            class="parallax-image parallax-image-100"
+            style="background-image:url(assets/images/gic/img-header.jpg)"
+            data-anchor-target="#header-intro + .gap"
+            data-bottom-top="transform: translate3d(0px, -100%, 0px);"
+            data-top-bottom="transform: translate3d(0px, 100%, 0px);"
+            data-0="transform: translate3d(0px, 0%, 0px);" 
+            data-500="transform: translate3d(0px, -1%, 0px);" 
+
+        ></div>
+    </div>
+
+    <div id="skrollr-body">
+        <div id="home"></div>
+        <div class="header" id="header-intro" >
+
+                <img src="assets/images/gic/logo-1.png" />
+                <h1  data-0="opacity:1;top:0px;" data-300="opacity:0;top:-200px;">This could be your defining moment</h1>
+                <hr data-0="opacity:1;top:0px;" data-300="opacity:0;top:-150px;">
+                <p data-0="opacity:1;top:0px;" data-300="opacity:0;top:-100px;">Think you have a game-changing client solution worthy of a global audience with PwC leadership? Then now’s your time to shine. You could win funding, accolades and a trip to Frankfurt, Germany.</p>
+                <div data-0="opacity:1;top:0px;" data-300="opacity:0;top:-50px;" class="bts">
+                    <a href="assets/images/gic/pwc_gic_form.pdf" target="_blank"  class="btn toLeft">Download entry form</a>
+                 <a href="https://pwc-spark.com/create-idea!input.jspa?containerType=14&containerID=2698" target="_blank" class="btn toRight">Submit entry form</a>
+           <
+                </div>
+
+        </div>
+
+        <div class="gap gap-100"  data-600="opacity:1;" data-500="opacity:0;"style="background-image:url(assets/images/gic/img-header.jpg);"></div>
+         <!-- end body INTRO -->
+        <div class="content" id="about" >
+
+            <div class="textAbout">
+                <div class="imgSuportLateral imgAbout"></div>   
+
+                <div class="texts" > 
+                <div id ="table1" class="table1">
+                    <h1>If you've built a brilliant solution, this Challenge is for you</h1>
+                    <p>You’ll need more than a brilliant idea to compete in the Challenge. You’ll need a viable business solution that’s already in place and generating revenue. (Even if only $1.) All entries will need to answer the following:</p>
+                </div>
+                <div class="table2" >
+                    <div class="toLeft" >
+                        <h1>What is it?</h1>
+                        <p>When completing the entry form, you’ll describe your solution in its entirety. Everything from tactical details and team members, to value propositions and revenue models. This will highlight your innovative thinking. </p>
+
+                        <h1>What wants is?</h1>
+                        <p>Market opportunity is crucial to any endeavor. You’ll tell us not only who’s currently implementing your idea, but also which other clients might be interested. This will display the scalability of your solution. </p>
+                    </div>
+                    <div class="toRight">
+
+                        <h1>What’s it worth?</h1>
+                        <p>Money is a measure everyone understands. That’s why you’ll break down existing and potential sales, plus demand triggers. You’ll also detail what’s needed in terms of time and materials support. All will display the potential for your solution’s ongoing profitability. </p>
+
+                        <h1>Where does it fit?</h1>
+                        <p>In some ways, innovation must work inside the box. You’ll explain how your idea fits in with lines of service, business imperatives, and go-to-market strategies. This will illustrate how your solution advances goals at the enterprise level. </p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="content" id="about-graph">
+                <div class="toLeft">
+                    <h1>Frankly, 2016 is our biggest Challenge yet</h1>
+                    <p>From the start, the Global Innovation Challenge sparked major interest across the firm. Entrepreneurial, visionary, solutions-seeking employees across all territories jumped up and took notice. So did global leadership. Every year since, the Challenge has drawn more eyes, more interest, and more excitement. This year, the energy is at a near fever pitch with the most pomp, prizes, and prestige at stake – ever. This is big. Uber-big. </p>
+                </div>
+                <div class="toRight">
+
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 792 669" style="enable-background:new 0 0 792 669;" xml:space="preserve">
+                    <style type="text/css">
+                    <![CDATA[
+                    @font-face{font-family:'Arial';)}
+                    ]]>
+                    </style>
+                    <text transform="matrix(1 0 0 1 60.708 206.0518)"><tspan x="0" y="0" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">100</tspan><tspan x="14.538" y="37.031" style="opacity:0.5;fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">90</tspan><tspan x="14.538" y="74.062" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">80</tspan><tspan x="14.538" y="111.094" style="opacity:0.5;fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">70</tspan><tspan x="14.538" y="148.125" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">60</tspan><tspan x="14.538" y="185.156" style="opacity:0.5;fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">50</tspan><tspan x="14.538" y="222.188" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">40</tspan><tspan x="14.538" y="259.219" style="opacity:0.5;fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">30</tspan><tspan x="14.538" y="296.25" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">20</tspan><tspan x="14.538" y="333.281" style="opacity:0.5;fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">10</tspan><tspan x="29.075" y="370.312" style="fill:#BCBEC0; font-family:'Arial'; font-size:26.1397px;">0</tspan></text>
+                    <line style="opacity:0.5;fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="531.34" x2="734.521" y2="531.34"/>
+                    <line style="fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="494.452" x2="734.521" y2="494.452"/>
+                    <line style="opacity:0.5;fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="457.563" x2="734.521" y2="457.563"/>
+                    <line style="fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="420.675" x2="734.521" y2="420.675"/>
+                    <line style="opacity:0.5;fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="383.787" x2="734.521" y2="383.787"/>
+                    <line style="fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="346.899" x2="734.521" y2="346.899"/>
+                    <line style="opacity:0.5;fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="310.011" x2="734.521" y2="310.011"/>
+                    <line style="fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="273.123" x2="734.521" y2="273.123"/>
+                    <line style="opacity:0.5;fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="236.235" x2="734.521" y2="236.235"/>
+                    <line style="fill:none;stroke:#D1D3D4;stroke-width:0.5;stroke-miterlimit:10;" x1="117.391" y1="199.346" x2="734.521" y2="199.346"/>
+                    <line style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;" x1="145.902" y1="171.472" x2="145.902" y2="597.88"/>
+                    <line style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;" x1="752.635" y1="569.368" x2="117.391" y2="569.368"/>
+                    <text transform="matrix(1.06 0 0 1 180.9629 622.0542)" style="fill:#DA6A27; font-family:'Arial-BoldMT'; font-size:38.9103px;">2013</text>
+                    <text transform="matrix(1.06 0 0 1 327.6295 620.7209)" style="fill:#EA8D23; font-family:'Arial-BoldMT'; font-size:38.9103px;">2014</text>
+                    <text transform="matrix(1.06 0 0 1 476.2962 620.7209)" style="fill:#FDB515; font-family:'Arial-BoldMT'; font-size:38.9103px;">2015</text>
+                    <text transform="matrix(1.06 0 0 1 613.6295 620.7209)" style="fill:#FFFFFF; font-family:'Arial-BoldMT'; font-size:38.9103px;">2016</text>
+                    <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 50.7285 538.13)" style="fill:#E5E2DB; font-family:'Arial-BoldMT'; font-size:30.3158px;">submitted solutions</text>
+
+                    <rect transform="rotate(180)" x="-270" y="-568" style="fill: rgb(218, 106, 39);" width="95.755" height="0">
+                        <animate id="GraphAnimate" from="0" begin="indefinite" to="127" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="height" dur="1s" />
+                    </rect>
+                    <rect id="RectGraphAnimate2" transform="rotate(180)" x="-420" y="-568" style="fill:#EA8D23;" width="95.755" height="0">
+                        <animate id="GraphAnimate2Start" from="0" begin="GraphAnimate.end-1" to="0" dur="1.25s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="height" dur="1s" />
+                        <animate id="GraphAnimate2" from="0" begin="GraphAnimate.end-0.5" to="200" dur="1.25s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="height" dur="1s" />
+                    </rect>
+                    <rect id="RectGraphAnimate3" transform="rotate(180)"   x="-570" y="-568" style="fill:#FDB515;" width="95.755" height="0">
+                        <animate id="GraphAnimate3Start" from="0" begin="GraphAnimate.end-1" to="0" dur="0s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="height" dur="1s" />
+                        <animate id="GraphAnimate3" from="0" begin="GraphAnimate2.end-0.75" to="310" dur="1.5s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="height" dur="1s" />
+                    </rect>
+                    <g id="Arrow_26">
+                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="670.6667" y1="572" x2="670.6667" y2="74.6667">
+                            <stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+                            <stop  offset="1" style="stop-color:#FFFFFF"/>
+                        </linearGradient>
+                        <polygon style="fill:url(#SVGID_1_);" points="0">
+                            <animate id="GraphAnimate4Start" 
+                                from="670.667,572 587.333,572 625.667,572 625.667,572 712.667,572 712.667,572 754,572" 
+                                begin="GraphAnimate.end-1"
+                                to="670.667,572 587.333,572 625.667,572 625.667,572 712.667,572 712.667,572 754,572" 
+                                dur="1.75s" 
+                                animation-fill-mode: forwards;  
+                                fill="freeze" 
+                                calcMode= "spline" 
+                                keySplines= "0 0 0.58 1" 
+                                keyTimes= "0;1" 
+                                attributeType="XML" 
+                                attributeName="points" 
+                                dur="0s" />
+                         <animate id="GraphAnimate4" 
+                            from="670.667,572 587.333,572 625.667,572 625.667,572 712.667,572 712.667,572 754,572" 
+                                begin="GraphAnimate3.end-1" 
+                                to="670.667,74.667 587.333,177.333 625.667,177.333 625.667,572 712.667,572 712.667,176.667 754,176.667" 
+                                dur="1.75s" 
+                                animation-fill-mode: forwards;  
+                                fill="freeze" 
+                                calcMode= "spline" 
+                                keySplines= "0 0 0.58 1" 
+                                keyTimes= "0;1" 
+                                attributeType="XML" 
+                                attributeName="points" 
+                                dur="1s" />
+                        </polygon>
+
+                    </g>
+                    </svg>
+
+
+                </div>
+            </div>
+
+            <div class="content" id="about-date">
+                <div class="col col1">
+                    <div class="contentCol">
+                        <h1>Deadline for all<br>submissions</h1>
+                         <div class="date d1">APR 24</div>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <div class="contentCol">
+                     <h1>Announcement<br>of our finalists</h1>
+                     <div class="date d2">JUN 08</div>
+                    </div>
+                </div>
+                <div class="col col3">
+                    <div class="contentCol">
+                     <h1>Winners fly<br>to Frankfurt</h1>
+                     <div class="date d3">JUN 27</div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div> <!-- end ABOUT -->
+
+
+        <div class="content" id="rules">
+            <div class="textRules">
+
+                <div class="divisiontextRules">
+                    
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     x="0px" y="0px" width="195.105px" height="24.826px" viewBox="0 0 195.105 24.826"
+     style="enable-background:new 0 0 195.105 24.826;" xml:space="preserve">
+<defs>
+</defs>
+<polygon style="fill:#EB8C00;" points="179.231,3.462 185.56,9.791 0,9.791 0,15.035 185.56,15.035 179.231,21.364 182.693,24.826 
+    195.105,12.413 182.693,0 "/>
+</svg>
+
+                </div>
+
+                <div class="table1">
+                    <h1>Rules are meant to be broken. Except these.</h1>
+                    <p>As an innovator, you’re probably comfortable bending – if not breaking – more than a few rules. We applaud that spirit. That’s why there aren’t a lot of restrictive regulations and parameters attached to the Global Innovation Challenge. There are only two caveats. But we do take them seriously.</p>
+                </div>
+                <div class="table2">
+                    <h1>1</h1>
+                    <p>Your solution has to already be in place and making money for a PwC client. The Global Innovation Challenge isn’t a conceptual forum. It’s a showcase for real, revenue-generating business solutions that solve real business problems. </p>
+
+                    <h1>2</h1>
+                    <p>You need to complete the entry form in its entirety. Every section. It’s our way of properly vetting the hundreds of submissions we receive. You can have the best solution the firm has ever seen. But an incomplete entry form immediately disqualifies you. Why would you want to miss out on a technicality?</p>
+                </div>
+            </div>
+        </div> <!-- end RULES -->
+        <div class="content" id="prize">
+            <div class="contentPrize">
+            <div class="textPrize">
+                    <h1>Cash. Prizes. Prestige. And a trip to Frankfurt, Germany.</h1>
+                    <p>Innovation has its rewards. As well it should. Your ingenuity is something to be celebrated. And, should you make it to Frankfurt, rest assured it will be. On the line this year:</p>
+            </div>
+            <div class="table1">
+                <div class="line">
+                    <div class="col">
+                        <div class="ico">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-4" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);"  d="M631.524,385.754c-0.211-4.116-2.898-7.689-6.794-9.037l-31.351-10.83l33.566-15.58
+    c3.734-1.737,6.038-5.566,5.827-9.683c-0.201-4.121-2.889-7.694-6.783-9.042l-35.87-12.385c2.335-3.14,3.653-6.436,3.653-9.858
+    v-19.178c0,7.413-5.867,14.297-15.892,20.048c-17.261,9.904-46.87,16.45-80.576,16.45c-30.164,0-57.006-5.279-74.689-13.496l0,0
+    c-2.053-0.951-4.066-1.923-5.867-2.955c-10.014-5.752-15.892-12.635-15.892-20.048c0-2.742,0.866-5.399,2.385-7.966L154.769,397.545
+    c-3.743,1.736-6.058,5.57-5.837,9.692c0.202,4.116,2.899,7.689,6.783,9.032l31.361,10.824l-33.565,15.576
+    c-3.744,1.736-6.049,5.57-5.848,9.687c0.222,4.121,2.898,7.694,6.794,9.038l31.351,10.829l-33.566,15.581
+    c-3.734,1.736-6.038,5.565-5.827,9.692c0.201,4.116,2.889,7.689,6.794,9.033l184.884,63.844c1.067,0.367,2.194,0.553,3.292,0.553
+    c1.469,0,2.919-0.317,4.257-0.941l55.928-25.962c5.596,18.147,46.297,32.232,95.734,32.232c53.291,0,96.467-16.34,96.467-36.494
+    v-19.184c0,7.413-5.867,14.297-15.892,20.049c-17.261,9.908-46.87,16.449-80.576,16.449c-33.686,0-63.295-6.541-80.556-16.449
+    c-1.188-0.685-2.134-1.44-3.191-2.159l0,0c-7.367-4.917-11.835-10.517-12.42-16.516c-0.051-0.468-0.281-0.91-0.281-1.374v1.48
+    l-60.015,27.869l-157.358-54.328l29.871-13.864l125.977,43.509c1.087,0.367,2.194,0.553,3.311,0.553c1.45,0,2.909-0.317,4.257-0.941
+    l55.204-25.62c7.085,17.513,46.95,30.934,95.2,30.934c53.291,0,96.467-16.339,96.467-36.499v-19.177
+    c0,7.412-5.867,14.291-15.892,20.048c-17.261,9.908-46.87,16.445-80.576,16.445c-33.686,0-63.295-6.537-80.556-16.445
+    c-0.684-0.398-1.198-0.846-1.852-1.253c-7.579-4.746-12.299-10.175-13.486-16.012c-0.192-0.927-0.553-1.837-0.553-2.783v3.019
+    l-58.777,27.285l-102.305-35.331l-27.537-9.506l-27.496-9.496l29.862-13.859L340.6,480.104c1.077,0.372,2.194,0.553,3.301,0.553
+    c1.459,0,2.919-0.317,4.257-0.941l54.459-25.277c8.474,16.878,47.615,29.649,94.687,29.649c45.552,0,83.635-11.956,93.741-28.024
+    l33.394-15.494c3.724-1.737,6.038-5.566,5.827-9.688c-0.201-4.116-2.888-7.689-6.793-9.037l-31.351-10.824l33.554-15.581
+    C629.431,393.705,631.735,389.876,631.524,385.754z M407.71,322.796c14.171,13.492,48.903,23.043,89.594,23.043
+    c40.711,0,75.453-9.552,89.614-23.043c4.388,4.167,6.854,8.691,6.854,13.446c0,7.412-5.867,14.297-15.892,20.048
+    c-17.261,9.908-46.87,16.45-80.576,16.45c-30.164,0-57.006-5.274-74.689-13.492l0,0c-2.053-0.955-4.066-1.927-5.867-2.959
+    c-10.014-5.752-15.892-12.636-15.892-20.048C400.857,331.487,403.343,326.962,407.71,322.796z M407.71,368.881
+    c14.171,13.492,48.903,23.038,89.594,23.038c40.711,0,75.453-9.546,89.614-23.038c4.388,4.162,6.854,8.696,6.854,13.446
+    c0,2.234-0.695,4.403-1.721,6.532c-0.946,1.952-2.365,3.839-4.066,5.677c-0.725,0.784-1.5,1.559-2.365,2.315
+    c-0.634,0.559-1.288,1.107-1.993,1.65c-1.741,1.334-3.593,2.642-5.747,3.87c-17.261,9.908-46.87,16.456-80.576,16.456
+    c-30.164,0-57.006-5.279-74.689-13.497l0,0c-2.053-0.951-4.066-1.927-5.867-2.959c-10.014-5.747-15.892-12.636-15.892-20.043
+    C400.857,377.577,403.343,373.043,407.71,368.881z M356.693,409.844c-7.981,4.584-21.679,7.609-37.258,7.609
+    c-15.59,0-29.277-3.025-37.269-7.609c-4.629-2.657-7.347-5.842-7.347-9.274c0-9.32,19.978-16.873,44.616-16.873
+    s44.605,7.553,44.605,16.873C364.04,404.001,361.333,407.187,356.693,409.844z M593.772,428.408c0,1.454-0.393,2.868-0.835,4.277
+    v0.005l0,0c-0.031,0.08-0.021,0.156-0.05,0.237c-0.363,1.086-0.946,2.144-1.54,3.195c-0.302,0.518-0.574,1.042-0.927,1.55
+    c-0.613,0.896-1.339,1.772-2.113,2.637c-0.695,0.754-1.47,1.5-2.295,2.24c-0.695,0.634-1.369,1.278-2.174,1.891
+    c-1.792,1.384-3.725,2.738-5.959,4.016c-17.261,9.908-46.87,16.45-80.576,16.45c-33.686,0-63.295-6.542-80.556-16.45
+    c-0.181-0.11-0.312-0.232-0.513-0.347h0.009c-4.82-2.838-8.676-5.938-11.302-9.239c-0.211-0.262-0.293-0.538-0.483-0.8
+    c-1.037-1.405-1.962-2.823-2.536-4.282c-0.695-1.761-1.067-3.554-1.067-5.38c0-4.751,2.486-9.285,6.854-13.441
+    c14.171,13.486,48.903,23.037,89.594,23.037c40.711,0,75.453-9.551,89.614-23.037C591.307,419.128,593.772,423.657,593.772,428.408z
+     M593.772,387.959v-0.544l0.675,0.232L593.772,387.959z M400.857,260.527c0-20.159,43.176-36.494,96.448-36.494
+    c53.291,0,96.467,16.335,96.467,36.494c0,7.413-5.867,14.291-15.892,20.048c-17.261,9.904-46.87,16.445-80.576,16.445
+    c-33.686,0-63.295-6.541-80.556-16.445C406.734,274.818,400.857,267.94,400.857,260.527z">
+        <animate id="ico1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-4" />
+        <animate id="ico1Anima1" attributeName="x" from="0" to="100" dur="1s" begin="planeAnimate.end-4" />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                        <div class="textIco">Funding for you to further develop your solution</div>
+
+                    </div>
+                    <div class="col">
+                        <div class="ico">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="0" dur="1s" begin="planeAnimate.end-4" />
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-3.8" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);" d="M616.512,307.768c-35.349-97.167-127.15-157.529-224.892-157.529
+    c-27.174,0-54.799,4.661-81.823,14.509c-124.2,45.196-188.245,182.523-143.048,306.723C202.116,568.638,293.919,629,391.659,629
+    c27.192,0,54.817-4.67,81.841-14.509C597.682,569.296,661.727,431.968,616.512,307.768z M601.929,386.781
+    c-3.082,13.419-8.175,26.958-15.617,40.366c-10.186-23.067-25.746-46.418-45.365-68.724c17.891-27.607,27.136-57.459,25.163-86.286
+    c9.434,13.991,17.345,29.195,23.284,45.506C597.588,340.176,601.591,363.498,601.929,386.781z M541.718,248.787
+    c11.068,30.425,4.886,64.149-14.095,95.326c-21.949-22.524-47.677-43.505-75.358-61.603c13.248-22.382,16.462-45.891,8.776-66.996
+    c-4.454-12.234-12.252-22.72-22.645-31.045c36.908,8.485,70.716,26.77,97.89,52.469
+    C538.353,240.763,540.233,244.682,541.718,248.787z M186.199,378.175c-1.503-4.115-2.668-8.334-3.551-12.61
+    c4.379-37.49,18.792-73.122,41.437-103.058c-2.65,13.117-1.897,26.141,2.537,38.337c7.762,21.292,25.652,37.237,49.726,45.741
+    c-9.566,31.628-15.786,64.233-18.116,95.579C222.976,430.268,197.042,407.951,186.199,378.175z M436.009,272.307
+    c-26.76-15.946-54.912-28.885-82.969-37.736c16.931-21.715,34.972-37.539,52.601-46.446c18.285,6.634,31.665,18.436,37.322,33.978
+    C448.562,237.493,446.044,255.102,436.009,272.307z M368.845,182.111c3.082,0,6.014,0.264,8.983,0.471
+    c-12.911,9.528-25.596,21.996-37.755,37.209l-11.219-30.821c6.483-2.039,13.023-3.768,19.62-5.168
+    C355.333,182.769,362.173,182.111,368.845,182.111z M310.7,195.388l11.313,31.036c-19.225-3.862-37.022-5.225-53.109-4.19
+    c6.973-6.822,14.997-12.986,23.886-18.36C298.578,200.8,304.536,197.953,310.7,195.388z M251.541,244.221
+    c19.205-4.472,43.147-3.937,70.002,1.814c-15.804,24.825-29.034,52.835-39.295,82.255c-18.398-6.615-31.872-18.445-37.548-34.043
+    C239.119,278.912,241.6,261.378,251.541,244.221z M334.642,261.144l24.392,67.005c-13.398,3.937-27.117,6.098-40.216,6.098
+    c-6.276,0-12.196-0.601-17.927-1.466C309.929,307.392,321.223,283.027,334.642,261.144z M352.72,254.557
+    c24.392,8.156,48.729,19.582,71.994,33.244c-12.177,13.888-28.546,25.567-47.583,33.846L352.72,254.557z M294.745,351.433
+    c7.63,1.353,15.673,2.058,24.073,2.058c15.542,0,31.233-2.528,46.794-7.254l33.676,92.534c-25.971,8.429-52.901,13.08-78.515,13.08
+    h-0.019c-15.504,0-30.162-1.597-43.805-4.539C278.94,416.023,285.011,383.248,294.745,351.433z M383.709,339.725
+    c23.152-9.884,43.129-24.28,57.618-41.644c27.888,18.106,53.596,39.295,75.226,61.959c-22.777,29.382-57.092,55.232-99.15,72.22
+    L383.709,339.725z M257.235,462.103c-0.677,29.523,2.405,57.251,9.377,81.352c-14.264-5.478-26.836-12.544-37.773-20.813
+    c-14.734-17.974-26.742-38.45-34.954-61.048c-6.014-16.519-9.791-33.329-11.539-50.082
+    C199.147,434.872,225.119,452.312,257.235,462.103z M288.318,548.586c-8.532-23.434-12.309-51.604-12.065-81.794
+    c14.001,2.771,28.865,4.303,44.501,4.303h0.019c28.245,0,56.81-4.951,85.112-14.235l30.989,85.149
+    c-50.703,16.735-102.646,19.742-147.823,8.382C288.807,549.77,288.544,549.206,288.318,548.586z M423.981,450.329
+    c44.181-17.749,80.602-44.773,105.52-75.95c19.657,23.039,34.917,47.104,43.468,70.594c0.225,0.648,0.376,1.25,0.601,1.889
+    c-27.324,37.735-69.007,68.8-118.619,88.569L423.981,450.329z M306.942,582.047c-2.462-2.885-4.773-6.136-6.991-9.604
+    c14.865,2.678,30.238,4.107,45.948,4.107c31.872,0,65.022-5.525,97.59-16.331l10.955,30.05c-20.446,6.418-41.475,9.866-62.785,9.866
+    C361.891,600.135,333.176,593.65,306.942,582.047z M472.504,583.644L461.53,553.51c47.583-18.868,88.626-47.546,117.886-82.603
+    c0.508,4.05,0.846,7.996,0.79,11.755C557.541,528.647,519.673,564.043,472.504,583.644z">
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="-100 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-3.8" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                        <div class="textIco">Global exposure for you, your solution, and your team</div>
+                    </div>
+                    <div class="col">
+                        <div class="ico">
+                           <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="0" dur="1s" begin="planeAnimate.end-4" />
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-3.6" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);"  d="M394.113,407.296l-34.001-50.763l67.976,0.055L394.113,407.296z M598.266,516.744v-45.498
+    c0-44.72-26.918-88.626-70.373-106.337c-0.714,1.827-1.6,3.564-2.741,5.138L446.459,487.51
+    c7.245,10.366,11.523,22.938,11.523,36.507c0,35.222-28.647,63.878-63.869,63.878s-63.869-28.656-63.869-63.878
+    c0-13.569,4.278-26.141,11.523-36.507l-79.147-118.132c-1.031-1.538-1.764-3.202-2.397-4.903
+    c-41.22,16.534-70.264,57.166-70.264,105.161v47.108c19.239,30.989,45.344,57.239,76.18,76.705V492.557h31.595v117.698
+    c29.506,12.935,62.087,20.172,96.378,20.172c34.671,0,67.587-7.4,97.355-20.624V492.557h31.162v100.548
+    C553.23,573.676,579.136,547.553,598.266,516.744z M318.819,356.497l54.643,81.608l6.712-10.022l-47.95-71.567L318.819,356.497z
+     M282.964,358.144L355,465.656l7.309-10.908l-65.633-98.016C292.027,356.913,287.45,357.383,282.964,358.144z M308.128,236.646
+    c0,47.795,38.732,86.528,86.537,86.528c47.768,0,86.519-38.733,86.519-86.528c0-47.614-38.452-86.239-85.967-86.528
+    c-0.244,0-0.488-0.019-0.733-0.019C346.761,150.191,308.128,188.922,308.128,236.646z M353.4,524.017
+    c0-22.487,18.227-40.741,40.713-40.741s40.713,18.254,40.713,40.741c0,22.469-18.227,40.722-40.713,40.722
+    S353.4,546.486,353.4,524.017z M382.535,538.67c0,6.386,5.183,11.578,11.578,11.578c6.395,0,11.578-5.192,11.578-11.578v-29.307
+    c0-6.404-5.183-11.578-11.578-11.578c-6.395,0-11.578,5.174-11.578,11.578V538.67z M485.479,356.624l-29.532-0.018l-55.05,82.15
+    l-6.784,10.13l0,0l-7.888,11.777c2.587-0.325,5.21-0.543,7.888-0.543c13.152,0,25.39,3.999,35.558,10.855l75.402-112.56
+    C498.758,357.347,492.273,356.624,485.479,356.624z">
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="-100 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-3.6" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                       <div class="textIco"> Local recognition and celebration across your territory</div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="col">
+                        <div class="ico">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="0" dur="1s" begin="planeAnimate.end-4" />
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-3.6" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);"  d="M304.523,272.172V249.1c0-4.913,2.961-9.35,7.493-11.245c1.533-0.647,38.136-15.701,83.984-15.701
+    c45.847,0,82.451,15.054,83.983,15.701c4.532,1.895,7.493,6.332,7.493,11.245v23.072H463.1v-14.521
+    c-12.15-4.028-37.735-11.121-67.1-11.121c-29.518,0-54.998,7.084-67.101,11.102v14.541H304.523z M361.692,415.848v-16.234h68.616
+    v16.234c79.964-4.352,143.676-22.32,160.691-27.509v-79.603c0-13.464-10.912-24.376-24.376-24.376H225.377
+    c-13.464,0-24.376,10.912-24.376,24.376v79.593C218.016,393.519,281.814,411.496,361.692,415.848z M413.245,436.558v-19.881h-34.489
+    v19.881H413.245z M590.999,408.707v136.125c0,13.464-10.912,24.376-24.376,24.376H225.377c-13.464,0-24.376-10.912-24.376-24.376
+    V408.697c23.833,6.989,84.735,22.748,160.691,26.7v18.225h68.616v-18.225C506.254,431.445,567.166,415.686,590.999,408.707z
+     M268.911,544.831c0-24.043-19.491-43.534-43.534-43.534v43.534H268.911z M566.623,501.298c-24.043,0-43.534,19.491-43.534,43.534
+    h43.534V501.298z">
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="-100 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-3.6" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                        <div class="textIco">An all-expenses paid trip to one of Germany’s most beautiful cities</div>
+                    </div>
+                    <div class="col">
+                        <div class="ico">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="0" dur="1s" begin="planeAnimate.end-4" />
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-3.4" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);"  d="M392.67,445.197c-40.115,0-72.648,32.533-72.648,72.648c0,40.115,32.533,72.648,72.648,72.648
+    s72.648-32.533,72.648-72.648C465.318,477.73,432.785,445.197,392.67,445.197z M392.67,573.207
+    c-30.52,0-55.345-24.834-55.345-55.346c0-4.768,3.858-8.626,8.626-8.626c4.768,0,8.626,3.858,8.626,8.626
+    c0,20.992,17.092,38.094,38.093,38.094c4.768,0,8.626,3.858,8.626,8.626C401.296,569.332,397.437,573.207,392.67,573.207z
+     M377.001,425.03L461.561,227h84.568L452.69,446.225l-2.333-2.713c-15.955-12.417-35.945-19.881-57.687-19.881
+    C387.321,423.631,382.115,424.171,377.001,425.03z M359.075,379.153L294.127,227h29.652l50.131,117.413L359.075,379.153z
+     M331.638,443.512L239.21,227h31.481l76.658,179.616L331.638,443.512z">
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-3.4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="-100 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                        <div class="textIco">Individual LOS and Industry incentives and winners</div>
+                    </div>
+                    <div class="col">
+                        <div class="ico">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<defs> 
+    <mask id="maskCirc">
+        <circle cx="50%" cy="50%" r="50%" fill="#c7c8ca" />     
+    </mask>
+</defs> 
+<circle cx="50%" cy="50%" r="50%" fill="#c7c8ca">     
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="0" dur="1s" begin="planeAnimate.end-4" />
+    <animate id="icoBg1Anima" attributeName="opacity" from="0" to="1" dur="1s" begin="planeAnimate.end-3.2" />
+</circle>
+<path style="fill:#58595B; mask: url(#maskCirc);"  d="M375.629,508.052c-7.524,0-13.629-6.105-13.629-13.629c0-7.542,6.105-13.629,13.629-13.629h34.375
+    c7.524,0,13.629,6.087,13.629,13.629c0,7.524-6.105,13.629-13.629,13.629H375.629z M328.344,523.988L292.851,589.1h199.931
+    l-35.493-65.111H328.344z M604.983,286.63c0,26.815-15.067,46.07-48.856,62.45c-7.258,3.514-15.555,6.655-24.339,9.974
+    c-19.636,7.435-44.081,16.698-47.835,29.192c-1.385,4.597-0.134,9.512,3.097,12.227c3.301,2.787,8.137,2.822,13.611,0.072
+    c4.49-2.254,9.938-0.409,12.192,4.063c2.245,4.49,0.426,9.956-4.063,12.192c-5.262,2.644-10.622,3.94-15.733,3.94
+    c-6.548,0-12.689-2.13-17.702-6.353c-1.668-1.402-3.07-3.017-4.348-4.738c-21.118,35.333-48.395,56.647-78.191,56.647
+    c-29.796,0-57.072-21.313-78.191-56.647c-1.277,1.722-2.679,3.336-4.348,4.738c-5.013,4.223-11.153,6.353-17.702,6.353
+    c-5.111,0-10.471-1.296-15.733-3.94c-4.489-2.236-6.308-7.701-4.063-12.192c2.253-4.472,7.701-6.318,12.192-4.063
+    c5.456,2.75,10.301,2.715,13.611-0.072c3.23-2.715,4.481-7.631,3.097-12.227c-3.753-12.493-28.199-21.757-47.835-29.192
+    c-8.784-3.319-17.081-6.46-24.339-9.974c-33.79-16.38-48.856-35.635-48.856-62.45c0-24.773,21.313-44.934,47.516-44.934
+    c22.192,0,40.728,14.517,45.928,34.002c-1.722-16.113-2.635-32.796-2.635-49.903h242.716c0,17.107-0.913,33.79-2.635,49.903
+    c5.2-19.485,23.736-34.002,45.928-34.002C583.67,241.697,604.983,261.857,604.983,286.63z M290.402,354.759
+    c-6.548-20.408-11.606-42.876-14.836-66.85c-0.293,9.707-3.851,19.184-10.266,26.761c-3.221,3.833-8.953,4.33-12.804,1.082
+    c-3.833-3.229-4.312-8.962-1.073-12.795c3.984-4.72,6.087-10.364,6.087-16.327c0-14.747-13.168-26.761-29.344-26.761
+    c-15.91,0-29.344,12.263-29.344,26.761c0,14.215,4.677,29.654,38.616,46.088c6.513,3.159,14.446,6.176,22.84,9.352
+    C270.659,345.993,281.12,350.021,290.402,354.759z M491.486,257.118c0.168-2.52-0.71-4.986-2.422-6.833
+    c-1.722-1.827-4.126-2.875-6.646-2.875h-35.652c-5.022,0-9.086,4.064-9.086,9.086c0,5.005,4.064,9.086,9.086,9.086h25.803
+    c-8.243,88.892-42.759,150.703-72.653,159.824c-4.801,1.473-7.507,6.548-6.034,11.34c1.189,3.922,4.791,6.442,8.686,6.442
+    c0.879,0,1.766-0.124,2.653-0.408C448.655,429.524,484.938,351.441,491.486,257.118z M586.811,286.63
+    c0-14.499-13.434-26.761-29.344-26.761c-16.176,0-29.344,12.015-29.344,26.761c0,5.963,2.103,11.607,6.087,16.327
+    c3.239,3.833,2.759,9.566-1.073,12.795c-3.852,3.247-9.583,2.751-12.804-1.082c-6.416-7.578-9.974-17.055-10.266-26.761
+    c-3.23,23.957-8.287,46.442-14.845,66.85c9.291-4.738,19.751-8.766,30.133-12.689c8.394-3.177,16.327-6.193,22.84-9.352
+    C582.134,316.285,586.811,300.845,586.811,286.63z">
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-3.2" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="0 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+        <animateTransform  id="ico1Anima2" begin="planeAnimate.end-4" attributeName="transform" attributeType="XML" type="rotate" from="-100 0 0" to="-100 0 0" dur="1s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1"  />
+    </path>
+</svg>
+
+                        </div>
+                        <div class="textIco">The coveted Challenge trophy commemorating your achievement</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+           
+            <div class="bgPrize">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1400 610" style="enable-background:new 0 0 1400 610;" xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#FEE0A5;}
+                    .st1{fill:none;stroke:#efbc62;stroke-width:5;stroke-miterlimit:10;stroke-linecap="round"}
+                    .st2{fill:none;stroke:#efbc62;stroke-width:5;stroke-miterlimit:10;stroke-dasharray:2.9941,7.9843;stroke-linecap="round"}
+
+                .path {
+                  stroke-dasharray: 7;
+                  animation: dash 10s linear infinite;
+                }
+
+                @keyframes dash {
+                    from {
+                    stroke-dashoffset: 1000;    
+                    }
+                  to {
+                    stroke-dashoffset: 0;
+                  }
+                }
+                </style>
+                <defs> 
+                <mask id="maskLine">
+                    <rect id="deepPink-rectangle" width="100%" height="100%" x="0" y="0" fill="deepPink" >
+                      <animate id="planePathAnimate" from="0" begin="planeAnimate.end-4" to="100%" dur="4s" animation-fill-mode: forwards;  fill="freeze" calcMode= "spline" keySplines= "0 0 0.58 1" keyTimes= "0;1" attributeType="XML" attributeName="width" dur="1s" />
+                     </rect>  
+                    </mask>
+                </defs> 
+                <g>
+                    <g>
+                       <path class="st2 path" d="M5.313,11.706C159.734,238.9,639.118,841.411,1118.049,382.315"   style="mask: url(#maskLine); " />
+                    </g>
+                </g>
+
+
+                <path style="fill:#FEE0A5;" d="M461.68-2.684c0.007-19.847-16.099-35.961-35.969-35.961l-141.05-0.001L146.309-257.611
+                c-2.537-4.004-6.939-6.449-11.697-6.445H99.9c-4.535-0.004-8.781,2.223-11.368,5.941c-2.583,3.73-3.171,8.491-1.59,12.733
+                l77.296,206.744H34.348L-18.676-98.54c-2.614-2.95-6.401-4.665-10.367-4.673l-18.396,0.008c-4.7,0.008-9.08,2.399-11.628,6.355
+                c-2.549,3.954-2.909,8.93-0.959,13.218l36.859,80.956l-36.859,80.972c-1.953,4.275-1.586,9.258,0.955,13.213
+                c0.547,0.844,1.162,1.605,1.85,2.293c2.568,2.568,6.079,4.054,9.79,4.059l18.403-0.001c3.959,0.001,7.726-1.704,10.356-4.67
+                L34.34,33.301l129.895-0.004L86.935,240.028c-1.586,4.246-0.994,9.003,1.594,12.729c0.473,0.688,1.012,1.326,1.585,1.899
+                c2.575,2.576,6.08,4.055,9.782,4.051h34.712c4.75,0.004,9.166-2.427,11.689-6.447l138.36-218.971l141.06,0.003
+                C445.576,33.289,461.68,17.185,461.68-2.684z">
+                    <animateMotion 
+                        id="planeAnimate" 
+                        path="M5.313,11.706C159.734,238.9,639.118,841.411,1118.049,382.315"
+                        dur="4s" 
+                        rotate="auto"
+                        animation-fill-mode: forwards;  
+                        fill="freeze"
+                        calcMode= "spline"
+                        keySplines= "0 0 0.58 1"
+                        keyTimes= "0;1"
+                        attributeType="XML"
+                        attributeName="fill"
+                        dur="1s" begin="indefinite"
+                        restart="whenNotActive"/>
+                    </path>
+                </svg>
+            </div>
+
+
+
+        </div> <!-- end prize -->
+        <div class="content" id="faq">
+
+            <section class="ac-container">
+                <div class="imgSuportLateral imgFaq"></div>
+
+                <div class="texts"> 
+                <div>
+                    <input id="ac-1" name="accordion-1" type="checkbox" />
+                    <label for="ac-1">Who can enter the Global Innovation Challenge?</label>
+                    <article class="ac-small">
+                        <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-2" name="accordion-1" type="checkbox" />
+                    <label for="ac-2">How will the entrant solutions be judged? What are the evaluation criteria?</label>
+                    <article class="ac-small">
+                        <p>Submitted solutions will be judged and evaluated against 3 categories: Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-3" name="accordion-1" type="checkbox" />
+                    <label for="ac-3">Who are the judges?</label>
+                    <article class="ac-small">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-4" name="accordion-1" type="checkbox" />
+                    <label for="ac-4">Is there a maximum number of solution entries per territory?</label>
+                    <article class="ac-small">
+                        <p>Yes. Given the number of solutions that are ultimately entered into the Challenge, a maximum of 10 entries per territory is accepted. To ensure a level of parity within the large diversity of TIO and Non-TIO sizes, the Global Innovation Office reserves the right to further limit the number of entrant solutions. </p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-5" name="accordion-1" type="checkbox" />
+                    <label for="ac-5">Can entries from last year's Challenge enter this year? </label>
+                    <article class="ac-small">
+                        <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-6" name="accordion-1" type="checkbox" />
+                    <label for="ac-6">Do the votes and points on the Challenge page influence the final outcome?</label>
+                    <article class="ac-small">
+                        <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-7" name="accordion-1" type="checkbox" />
+                    <label for="ac-7">Can multiple solutions from the same territory enter the Top 5 Finalists round? </label>
+                    <article class="ac-small">
+                        <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
+                    </article>
+                </div>
+                </div>
+            </section>
+        </div> <!-- end prize -->
+        
+        <div class="content" id="promote">
+
+            <div class="toLeft">
+                <div class="ico">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 2.938 2.901" style="enable-background:new 0 0 2.938 2.901;" xml:space="preserve">
+                    <path style="fill:#E4E2DA;" d="M2.106,0.831h0.734c0.063,0.162,0.098,0.339,0.098,0.523c0,0.44-0.198,0.834-0.509,1.099H2.106
+                        c0.158-0.214,0.255-0.499,0.255-0.811C2.361,1.329,2.264,1.044,2.106,0.831z M1.813,2.158h0.272
+                        c0.071-0.156,0.109-0.333,0.109-0.516c0-0.199-0.044-0.391-0.127-0.556h-0.2c-0.354-0.155-0.593-0.501-0.61-0.887
+                        C1.251,0.084,1.151-0.007,1.038,0C0.922,0.006,0.833,0.103,0.839,0.219c0.011,0.23,0.077,0.449,0.188,0.643c0,0,0,0.001,0,0.001
+                        C1.037,0.924,1,0.982,0.942,1.001H0.417c-0.105,0-0.19,0.085-0.19,0.19c0,0.099,0.076,0.18,0.174,0.188
+                        C0.302,1.386,0.223,1.468,0.223,1.568c0,0.105,0.085,0.19,0.19,0.19h0.016C0.337,1.772,0.266,1.85,0.266,1.946
+                        c0,0.105,0.085,0.19,0.19,0.19h0.072C0.49,2.167,0.464,2.214,0.464,2.267c0,0.093,0.075,0.168,0.168,0.168h0.579
+                        c0.006,0,0.011-0.001,0.016-0.002c0.011,0,0.022,0.002,0.033,0.002C1.486,2.435,1.687,2.326,1.813,2.158z"/>
+                    </svg>
+                </div>
+                <h1>Promote the Challenge</h1>
+                <p>No less than PwC Global Chairman Dennis Nally will kick-off this year’s Challenge. Those involved in promoting innovation support firm-wide business objectives. And perhaps raise their own profile in the process.</p>
+            </div>
+            
+            <div class="toLeft">
+                <div class="btn"><a href="https://pwc-spark.com/docs/DOC-613666">Make me a promoter</a></div>
+            </div>
+
+            <div class="division"></div>
+        </div>
+
+        <footer>
+            <div class="logo-pwc">
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="PwC" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 841.89 595.275" style="enable-background:new 0 0 841.89 595.275;" xml:space="preserve">
+<g>
+    <g>
+        <path style="fill:#FFFFFF;" d="M557.028,391.227c-24.728,3.994-37.369,22.26-37.369,54.402c0,32.343,16.84,53.971,42.658,53.971
+            c12.012,0,22.927-3.991,45.871-15.246v26.162c-27.539,12.631-43.748,16.538-65.935,16.538c-24.023,0-40.921-6.379-54.722-20.445
+            c-14.145-14.148-21.218-32.838-21.218-53.642c0-46.289,34.267-77.607,84.32-77.607c33.245,0,56.109,15.188,56.109,37.496
+            c0,14.362-10.641,24.246-26.432,24.246c-8.105,0-14.764-2.123-23.282-7.07V391.227z"/>
+        <path style="fill:#FFFFFF;" d="M435.005,452.966c22.171-27.949,30-39.22,30-52.944c0-13.663-10.847-24.664-25.336-24.664
+            c-8.925,0-16.96,4.214-20.883,8.595v56.932l-36.326,48.402V378.939h-34.537l-57.411,95.181v-95.181h-19.847l-52.118,12.705v13.322
+            l28.428,2.885v116.729h36.744l55.066-90.495v90.495h40.238L435.005,452.966z"/>
+        <path style="fill:#FFFFFF;" d="M108.812,506.608c3.912,0.185,5.627,0.185,8.1,0.185c29.598,0,45.463-18.454,45.463-53.827
+            c0-29.947-12.981-45.871-36.94-45.871c-3.986,0-8.174,0.485-16.623,1.512V506.608z M108.812,570.393l23.827,5.299l-0.069,13.52
+            H39.166v-13.52l21.302-5.299V407.095H36.789V393.09l57.184-17.369h14.839v19.5c26.781-15.934,35.982-18.756,49.719-18.756
+            c31.726,0,55.141,29.259,55.141,69.772c0,46.835-31.244,78.343-80.477,78.343c-5.569,0-14.833-0.339-24.383-1.435v47.523V570.393z
+            "/>
+    </g>
+    <rect x="768.797" y="184.931" style="opacity:0.53;fill:#FFFFFF;" width="36.305" height="71.536"/>
+    <rect x="696.415" y="77.567" style="opacity:0.36;fill:#FFFFFF;" width="72.382" height="107.364"/>
+    <rect x="382.545" y="256.467" style="opacity:0.92;fill:#FFFFFF;" width="143.096" height="35.776"/>
+    <rect x="525.641" y="184.931" style="opacity:0.92;fill:#FFFFFF;" width="89.243" height="71.536"/>
+    <rect x="525.641" y="149.082" style="opacity:0.85;fill:#FFFFFF;" width="89.243" height="35.85"/>
+    <rect x="614.884" y="184.931" style="opacity:0.87;fill:#FFFFFF;" width="53.457" height="71.536"/>
+    <polygon style="opacity:0.73;fill:#FFFFFF;" points="614.884,184.931 668.341,184.931 668.341,77.567 525.641,77.567 
+        525.641,149.082 614.884,149.082     "/>
+    <rect x="668.341" y="184.931" style="opacity:0.73;fill:#FFFFFF;" width="28.073" height="71.536"/>
+    <rect x="696.415" y="184.931" style="opacity:0.67;fill:#FFFFFF;" width="72.382" height="71.536"/>
+    <rect x="525.641" y="34.01" style="opacity:0.61;fill:#FFFFFF;" width="142.7" height="43.558"/>
+    <rect x="525.641" y="6.063" style="opacity:0.44;fill:#FFFFFF;" width="142.7" height="27.946"/>
+    <rect x="668.341" y="34.01" style="opacity:0.31;fill:#FFFFFF;" width="28.073" height="43.558"/>
+    <rect x="668.341" y="77.567" style="opacity:0.52;fill:#FFFFFF;" width="28.073" height="107.364"/>
+</g>
+</svg>
+
+
+            </div>
+            <div class="logo-gic"><img src="assets/images/gic/logo-gic-footer.jpg" /></div>
+            <h1>Have questions or need help?</h1>
+            <p class="toLeft">Immediate help contact us by phone<br><a href="+1(000)00000000">+1 (000) 000 - 0000</a></p>
+            <p class="toRight">Inquiries or problems please email us<br><a href="mailto:solution@pwc.com">solution@pwc.com</a></p>
+        </footer>
+
+
+
+
+</div> <!-- end body skrollr -->    
+
+
+		<script src="assets/js/src/modules/skrollr.min.js"></script>
+	    <script>
+		    skrollr.init({forceHeight: false,smoothScrolling:true,smoothScrollingDuration:200});
+            
+		</script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/src/modules/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="assets/js/src/modules/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="assets/js/src/modules/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="assets/js/src/modules/jquery.easing.min.js"></script>
+
+        <script type="text/javascript" src="assets/js/src/modules/jquery.onscreen.min.js"></script>
+        
+        
+
+{% endblock %}

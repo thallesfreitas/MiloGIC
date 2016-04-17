@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<title>{% block title %}{% endblock %}</title>
+		<!-- build:css -->
+			<!-- vendor:css -->
+			<link href="assets/css/main.css" rel="stylesheet">
+			<!-- endinject -->
+			<!-- inject:css -->
+			<!-- endinject -->
+		<!-- endbuild -->
+		{% include "includes/favicons.nunjucks" %}
+	</head>
+	<body data-spy="scroll" data-offset="80" data-target=".main-nav">
+
+		{% block content %}{% endblock %}
+	    <!-- inject:js -->
+	    <!-- endinject -->
+
+	</body>
+</html>

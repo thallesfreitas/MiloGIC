@@ -1,0 +1,105 @@
+#faq {
+    position:relative;
+    background-color: #f5f4f0;
+    height:68%;
+    display: table; 
+    width: 100%;
+
+
+    .imgFaq{
+        width: 29vw;
+        height: 560px;
+        float:left;
+        background:url(/assets/images/gic/img-faq.png) #ffb600 center center no-repeat;
+    }
+
+
+    .texts {
+        float: left;
+        width: 63%;
+        padding: 3vw;
+
+
+    .ac-container{
+        display: table;
+        width: 100%;
+        font-family: Arial;
+        color:#404041;
+        float:left;
+        margin: 10px auto 30px auto;
+        text-align: left;
+        
+    }
+    label{
+        padding: 5px 20px;
+        position: relative;
+        z-index: 20;
+        display: block;
+        height: auto;
+        cursor: pointer;
+        color: #404041;
+        line-height: 33px;
+        font-size: 20px;
+        
+    }
+    label:hover{
+        background: #fff;
+    }
+    input:checked + label,
+    input:checked + label:hover{
+        color: #404041;
+        
+    }
+    label:hover:after,
+    input:checked + label:hover:after{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 13px;
+        top: 7px;
+    }
+    input:checked + label:hover:after{
+    }
+    input{
+        display: none;
+    }
+    article{
+        
+        margin-top: -1px;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 10;
+        -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+        -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+        -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+        -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+        transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    }
+    article p{
+        
+        color: #404041;
+        line-height: 23px;
+        font-size: 14px;
+        padding: 20px;
+        
+    }
+    input:checked ~ article{
+        -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        
+    }
+    input:checked ~ article.ac-small, input:checked ~ article.ac-medium, input:checked ~ article.ac-large{
+        height: 100px;
+        min-height:auto;
+    }
+
+}
+
+
+
+}

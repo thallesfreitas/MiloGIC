@@ -1,0 +1,97 @@
+#prize {
+    position:relative;
+    background-color: #ffffff;
+    height:77%;
+    display: table; 
+    width: 100%;
+    .bgPrize {
+        position: absolute;
+        width: 100%;
+    }
+    .contentPrize{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        .textPrize{
+        	h1 {
+    		    padding: 8vh 8vw;
+    		    padding-bottom: 20px;
+    		    font-weight: 100;
+    		}
+    		p{
+    			padding: 0px 8vw;
+        		font-weight: 100;
+        		line-height: 28px;
+    		}
+        }
+        .table1{
+        	.line{
+        		width: auto;
+        		clear: both;
+        		padding: 3vh 8vw;
+        		.col{
+        			width:33.3%;
+        			font-weight: 100;
+        			float: left;
+        			margin: 25px 0px;
+        			//padding-left: 50px;
+
+        			.ico {
+    				    width: 115px;
+    				    height: 115px;
+    				    //background-color: #c7c8ca;
+    				    border-radius: 112px;
+    				    float: left;
+                            overflow: hidden;
+    				}
+
+    				#ico1{
+    					  display: -ms-flex;
+    					  display: -webkit-flex;
+    					  display: flex;
+    					  -ms-align-items: center;
+    					  -webkit-align-items: center;
+    					  align-items: center;
+    					  -ms-justify-content: center;
+    					  -webkit-justify-content: center;
+    					  justify-content: center;
+
+    				}
+
+                    .textIco{
+                        height: 115px;
+                        padding-left: 15px;
+                        display: -ms-flex;
+                        display: -webkit-flex;
+                        display: flex;
+                        -ms-align-items: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        -ms-justify-content: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+        		}
+        	}
+        }
+    }
+    ///
+}
+
+
+/// <div class="textPrize">
+///         <h1>Cash. Prizes. Prestige. And a trip to Frankfurt, Germany.</h1>
+///         <p>Innovation has its rewards. As well it should. Your ingenuity is something to be celebrated. And, should you make it to Frankfurt, rest assured it will be. On the line this year:</p>
+/// </div>
+/// <div class="table1">
+///     <div class="line">
+///         <div class="col">Funding for you to further develop your solution</div>
+///         <div class="col">Global exposure for you, your solution, and your team</div>
+///         <div class="col">Local recognition and celebration across your territory</div>
+///     </div>
+///     <div class="line">
+///         <div class="col">An all-expenses paid trip to one of Germany’s most beautiful cities</div>
+///         <div class="col">Individual LOS and Industry incentives and winners</div>
+///         <div class="col">The coveted Challenge trophy commemorating your achievement</div>
+///     </div>
+/// </div>

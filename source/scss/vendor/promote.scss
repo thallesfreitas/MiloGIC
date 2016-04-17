@@ -1,0 +1,71 @@
+#promote {
+	position: relative;
+	clear: both;
+	padding-top: 80px;
+	height:auto;
+	display: table; 
+	width: 100%;
+
+	.toLeft{
+		display: table;
+		width: 49%;
+		height: 50%;
+		text-align: center;
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		align-items: center;
+		-ms-justify-content: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+
+		h1 {
+			font-weight: 100;
+			margin-bottom: 10px;
+			padding: 0 5vw;
+		}
+		p {
+			margin-bottom: 25px;
+			line-height: 18px;
+			padding: 0 5vw;
+		}
+
+		.ico {
+			@include centerObj();
+			width: 130px;
+		}
+
+		.btn{
+			@include centerObj();
+			width: 150px;
+			text-align:center;
+			font-family: Arial !important;
+			font-weight: bold;
+			font-size: 14px;
+			border: 3px solid #ffb600;
+			padding:13px;
+			color:#ffb600;
+			text-decoration: none;
+			margin-top: 13vh;
+			a{
+				color:#ffb600;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.division{
+		display: table;
+		height:33vh;
+		width:100%;
+		background:url(/assets/images/gic/bg-promote.jpg) top center no-repeat #dc6900;
+	}
+
+	// .toRight{
+	// 	@include centerObj();
+	// 	width: 49%;
+	// 	display: table;
+	// 	height:50%;
+
+		
+	//}
+}
