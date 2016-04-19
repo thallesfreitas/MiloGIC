@@ -4,7 +4,8 @@
 {% block title %}Global Innovation Challenge 2016{% endblock %}
 
 {% block content %} 
-
+{% set ov=" style='overflow:hidden;'"|safe %}
+{% set ovA=" style='overflow:hidden;position:absolute;'"|safe %}
 <nav class="main-nav" role="navigation" >
     <ul class="nav local-scroll">
         <li class="hideScrollTop" ><a href="#home"><img src="assets/images/gic/logo-menu.png" /></a></li>
@@ -51,50 +52,120 @@
                 <div data-0="opacity:1;top:0px;" data-300="opacity:0;top:-50px;" class="bts">
                     <a href="assets/images/gic/pwc_gic_form.pdf" target="_blank"  class="btn toLeft">Download entry form</a>
                  <a href="https://pwc-spark.com/create-idea!input.jspa?containerType=14&containerID=2698" target="_blank" class="btn toRight">Submit entry form</a>
-           <
+           
                 </div>
 
         </div>
 
         <div class="gap gap-100"  data-600="opacity:1;" data-500="opacity:0;"style="background-image:url(assets/images/gic/img-header.jpg);"></div>
          <!-- end body INTRO -->
-        <div class="content" id="about" >
+        <div class="content" id="about" {{ov}}>
 
-            <div class="textAbout">
-                <div class="imgSuportLateral imgAbout"></div>   
+            <div class="textAbout"  {{ov}}>
+                <div class="imgSuportLateral imgAbout"
+                data-0="margin-left[cubic]:-200px;opacity:0;"
+                data-591="margin-left[cubic]:0;opacity:1"
+                data-700="margin-left[cubic]:0;opacity:1"
+                data-1100="margin-left[cubic]:0;opacity:0"
+                ></div>   
 
-                <div class="texts" > 
-                <div id ="table1" class="table1">
-                    <h1>If you've built a brilliant solution, this Challenge is for you</h1>
-                    <p>You’ll need more than a brilliant idea to compete in the Challenge. You’ll need a viable business solution that’s already in place and generating revenue. (Even if only $1.) All entries will need to answer the following:</p>
+                <div class="texts" {{ov}}> 
+                <div id ="table1" class="table1" {{ov}}>
+                    <h1
+                    data-0="margin-left[cubic]:-200px;padding-right:200px;"
+                    data-591="margin-left[cubic]:0px;padding-right:0px;"
+                    data-600="opacity:1"
+                    data-650="opacity:0"
+                    
+                    >If you've built a brilliant solution, this Challenge is for you</h1>
+                    <p
+                    data-0="margin-left[cubic]:-300px;padding-right:300px;"
+                    data-591="margin-left[cubic]:0px;padding-right:0px;"
+                    data-600="opacity:1"
+                    data-650="opacity:0"
+                    >You’ll need more than a brilliant idea to compete in the Challenge. You’ll need a viable business solution that’s already in place and generating revenue. (Even if only $1.) All entries will need to answer the following:</p>
                 </div>
                 <div class="table2" >
                     <div class="toLeft" >
-                        <h1>What is it?</h1>
-                        <p>When completing the entry form, you’ll describe your solution in its entirety. Everything from tactical details and team members, to value propositions and revenue models. This will highlight your innovative thinking. </p>
+                        <h1
+                        data-0="margin-left[cubic]:-250px;padding-right:250px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >What is it?</h1>
+                        <p
+                        data-0="margin-left[cubic]:-350px;padding-right:350px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >When completing the entry form, you’ll describe your solution in its entirety. Everything from tactical details and team members, to value propositions and revenue models. This will highlight your innovative thinking. </p>
 
-                        <h1>What wants is?</h1>
-                        <p>Market opportunity is crucial to any endeavor. You’ll tell us not only who’s currently implementing your idea, but also which other clients might be interested. This will display the scalability of your solution. </p>
+                        <h1
+                        data-0="margin-left[cubic]:-450px;padding-right:450px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >What wants is?</h1>
+                        <p
+                        data-0="margin-left[cubic]:-400px;padding-right:400px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >Market opportunity is crucial to any endeavor. You’ll tell us not only who’s currently implementing your idea, but also which other clients might be interested. This will display the scalability of your solution. </p>
                     </div>
                     <div class="toRight">
 
-                        <h1>What’s it worth?</h1>
-                        <p>Money is a measure everyone understands. That’s why you’ll break down existing and potential sales, plus demand triggers. You’ll also detail what’s needed in terms of time and materials support. All will display the potential for your solution’s ongoing profitability. </p>
+                        <h1
+                        data-0="margin-left[cubic]:-500px;padding-right:500px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >What’s it worth?</h1>
+                        <p
+                        data-0="margin-left[cubic]:-450px;padding-right:450px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >Money is a measure everyone understands. That’s why you’ll break down existing and potential sales, plus demand triggers. You’ll also detail what’s needed in terms of time and materials support. All will display the potential for your solution’s ongoing profitability. </p>
 
-                        <h1>Where does it fit?</h1>
-                        <p>In some ways, innovation must work inside the box. You’ll explain how your idea fits in with lines of service, business imperatives, and go-to-market strategies. This will illustrate how your solution advances goals at the enterprise level. </p>
+                        <h1
+                        data-0="margin-left[cubic]:-550px;padding-right:550px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >Where does it fit?</h1>
+                        <p
+                        data-0="margin-left[cubic]:-500px;padding-right:500px;"
+                        data-591="margin-left[cubic]:0px;padding-right:0px;"
+                        data-700="opacity:1"
+                        data-850="opacity:0"
+                        >In some ways, innovation must work inside the box. You’ll explain how your idea fits in with lines of service, business imperatives, and go-to-market strategies. This will illustrate how your solution advances goals at the enterprise level. </p>
 
                     </div>
                 </div>
             </div>
             </div>
             
-            <div class="content" id="about-graph">
+            <div class="content" id="about-graph" {{ov}}>
                 <div class="toLeft">
-                    <h1>Frankly, 2016 is our biggest Challenge yet</h1>
-                    <p>From the start, the Global Innovation Challenge sparked major interest across the firm. Entrepreneurial, visionary, solutions-seeking employees across all territories jumped up and took notice. So did global leadership. Every year since, the Challenge has drawn more eyes, more interest, and more excitement. This year, the energy is at a near fever pitch with the most pomp, prizes, and prestige at stake – ever. This is big. Uber-big. </p>
+                    
+                    <h1
+                    data-0="margin-left[cubic]:-500px;padding-right[cubic]:500px;"
+                    data-1045="margin-left[cubic]:0px;padding-right[cubic]:0px;"
+                    data-1200="opacity:1"
+                    data-1450="opacity:0"
+                    >Frankly, 2016 is our biggest Challenge yet</h1>
+                    <p
+                    data-0="margin-left[cubic]:-500px;padding-right[cubic]:500px;"
+                    data-1145="margin-left[cubic]:0px;padding-right[cubic]:0px;"
+                    data-1200="opacity:1"
+                    data-1450="opacity:0"
+                    >From the start, the Global Innovation Challenge sparked major interest across the firm. Entrepreneurial, visionary, solutions-seeking employees across all territories jumped up and took notice. So did global leadership. Every year since, the Challenge has drawn more eyes, more interest, and more excitement. This year, the energy is at a near fever pitch with the most pomp, prizes, and prestige at stake – ever. This is big. Uber-big. </p>
                 </div>
-                <div class="toRight">
+                <div class="toRight"
+                    data-0="opacity:0"
+                    data-1145="opacity:1"
+                >
 
                     <?xml version="1.0" encoding="iso-8859-1"?>
                     <svg version="1.1" id="Solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -175,23 +246,150 @@
                 </div>
             </div>
 
-            <div class="content" id="about-date">
-                <div class="col col1">
-                    <div class="contentCol">
-                        <h1>Deadline for all<br>submissions</h1>
-                         <div class="date d1">APR 24</div>
+
+            <div class="content" id="about-date" {{ov}} >
+                <div class="col col1"  {{ov}} >
+                    <div class="contentCol" {{ov}} >
+                        <h1
+                        data-1350="opacity:0"
+                        data-1500="opacity:1"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0">Deadline for all<br>submissions</h1>
+                        <div class="date d1" 
+                        data-1250="margin-left[swing]:-400px;"
+                        data-1400="margin-left[swing]:0px;"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0"
+                        >
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1490="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >A</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1480="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >P</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1470="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >R</span>&nbsp;&nbsp;
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1460="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >2</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1450="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >4</span>
+                        
+                        </div>
                     </div>
                 </div>
-                <div class="col col2">
-                    <div class="contentCol">
-                     <h1>Announcement<br>of our finalists</h1>
-                     <div class="date d2">JUN 08</div>
+                <div class="col col2" {{ov}}>
+                    <div class="contentCol" {{ov}} >
+                        <h1
+                        data-1350="opacity:0"
+                        data-1500="opacity:1"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0">
+                        Announcement<br>of our finalists</h1>
+                        <div class="date d1" 
+                        data-1250="margin-left[swing]:-400px;"
+                        data-1400="margin-left[swing]:0px;"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0"
+                        >
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1490="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >J</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1480="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >U</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1470="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >N</span>&nbsp;&nbsp;
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1460="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >0</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1450="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >8</span>
+                        
+
+                    </div>
                     </div>
                 </div>
-                <div class="col col3">
-                    <div class="contentCol">
-                     <h1>Winners fly<br>to Frankfurt</h1>
-                     <div class="date d3">JUN 27</div>
+                <div class="col col3" {{ov}}>
+                    <div class="contentCol" {{ov}}>
+                         <h1
+                        data-1350="opacity:0"
+                        data-1500="opacity:1"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0"
+                        >Winners fly<br>to Frankfurt</h1>
+                        <div class="date d1" 
+                        data-1250="margin-left[swing]:-400px;"
+                        data-1400="margin-left[swing]:0px;"
+                        data-1700="opacity:1"
+                        data-1850="opacity:0"
+                        >
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1490="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >J</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1480="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >U</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1470="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >N</span>&nbsp;&nbsp;
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1460="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >2</span>
+                            <span {{ov}} 
+                                data-1350="margin-left[swing]:-200px;padding-right[swing]:200px;opacity:0;"
+                                data-1450="margin-left[swing]:0px;padding-right[swing]:0px;opacity:1;"
+                                data-1700="opacity:1"
+                                data-1850="opacity:0"
+                            >7</span>
+
+                    </div>
                     </div>
                 </div>
                 
@@ -200,41 +398,92 @@
         </div> <!-- end ABOUT -->
 
 
-        <div class="content" id="rules">
+        <div class="content" id="rules" {{ov}}>
             <div class="textRules">
 
-                <div class="divisiontextRules">
-                    
-<svg version="1.1"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-     x="0px" y="0px" width="195.105px" height="24.826px" viewBox="0 0 195.105 24.826"
-     style="enable-background:new 0 0 195.105 24.826;" xml:space="preserve">
-<defs>
-</defs>
-<polygon style="fill:#EB8C00;" points="179.231,3.462 185.56,9.791 0,9.791 0,15.035 185.56,15.035 179.231,21.364 182.693,24.826 
-    195.105,12.413 182.693,0 "/>
-</svg>
+                <div class="divisiontextRules"
+                    data-1800="left[swing]:41%;opacity:0;"
+                    data-1900="left[swing]:50%;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0"
+                    >
+                                        
+                    <svg version="1.1"
+                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                         x="0px" y="0px" width="195.105px" height="24.826px" viewBox="0 0 195.105 24.826"
+                         style="enable-background:new 0 0 195.105 24.826;" xml:space="preserve">
+                    <defs>
+                    </defs>
+                    <polygon style="fill:#EB8C00;" points="179.231,3.462 185.56,9.791 0,9.791 0,15.035 185.56,15.035 179.231,21.364 182.693,24.826 
+                        195.105,12.413 182.693,0 "/>
+                    </svg>
 
                 </div>
 
                 <div class="table1">
-                    <h1>Rules are meant to be broken. Except these.</h1>
-                    <p>As an innovator, you’re probably comfortable bending – if not breaking – more than a few rules. We applaud that spirit. That’s why there aren’t a lot of restrictive regulations and parameters attached to the Global Innovation Challenge. There are only two caveats. But we do take them seriously.</p>
+                    <h1
+                    data-1700="margin-left[swing]:-50px;padding-right[swing]:60px;opacity:0;"
+                    data-1840="margin-left[swing]:0px;padding-right[swing]:15vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0"
+                    >Rules are meant to be broken. Except these.</h1>
+                    <p
+                    data-1800="margin-left[swing]:-50px;padding-right[swing]:28vh;opacity:0;"
+                    data-1880="margin-left[swing]:0px;padding-right[swing]:15vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0"
+                    >As an innovator, you’re probably comfortable bending – if not breaking – more than a few rules. We applaud that spirit. That’s why there aren’t a lot of restrictive regulations and parameters attached to the Global Innovation Challenge. There are only two caveats. But we do take them seriously.</p>
                 </div>
                 <div class="table2">
-                    <h1>1</h1>
-                    <p>Your solution has to already be in place and making money for a PwC client. The Global Innovation Challenge isn’t a conceptual forum. It’s a showcase for real, revenue-generating business solutions that solve real business problems. </p>
+                    <h1
+                    data-1700="margin-left[swing]:-50px;padding-right[swing]:60px;opacity:0;"
+                    data-1840="margin-left[swing]:-30px;padding-right[swing]:10vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0">1</h1>
+                    <p
 
-                    <h1>2</h1>
-                    <p>You need to complete the entry form in its entirety. Every section. It’s our way of properly vetting the hundreds of submissions we receive. You can have the best solution the firm has ever seen. But an incomplete entry form immediately disqualifies you. Why would you want to miss out on a technicality?</p>
+                    data-1800="margin-left[swing]:-50px;padding-right[swing]:28vh;opacity:0;"
+                    data-1880="margin-left[swing]:0px;padding-right[swing]:10vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0"
+                    >Your solution has to already be in place and making money for a PwC client. The Global Innovation Challenge isn’t a conceptual forum. It’s a showcase for real, revenue-generating business solutions that solve real business problems. </p>
+
+                    <h1
+                    data-1700="margin-left[swing]:-50px;padding-right[swing]:60px;opacity:0;"
+                    data-1840="margin-left[swing]:-30px;padding-right[swing]:10vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0">2</h1>
+                    <p
+
+                    data-1800="margin-left[swing]:-50px;padding-right[swing]:28vh;opacity:0;"
+                    data-1880="margin-left[swing]:0px;padding-right[swing]:10vh;opacity:1;"
+                    data-2000="opacity:1"
+                    data-2850="opacity:0">You need to complete the entry form in its entirety. Every section. It’s our way of properly vetting the hundreds of submissions we receive. You can have the best solution the firm has ever seen. But an incomplete entry form immediately disqualifies you. Why would you want to miss out on a technicality?</p>
                 </div>
             </div>
         </div> <!-- end RULES -->
-        <div class="content" id="prize">
-            <div class="contentPrize">
-            <div class="textPrize">
-                    <h1>Cash. Prizes. Prestige. And a trip to Frankfurt, Germany.</h1>
-                    <p>Innovation has its rewards. As well it should. Your ingenuity is something to be celebrated. And, should you make it to Frankfurt, rest assured it will be. On the line this year:</p>
+        <div class="content" id="prize" {{ov}}>
+            <div class="contentPrize" 
+                data-2000="margin-top:-200px;padding-top:200px;"
+                data-2450="margin-top:0px;padding-top:0px;"
+            >
+            <div class="textPrize" {{ov}}>
+                    <h1
+
+                        data-2000="opacity:0;"
+                        data-2450="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;"
+
+                    >Cash. Prizes. Prestige. And a trip to Frankfurt, Germany.</h1>
+                    <p
+
+                        data-2100="opacity:0;"
+                        data-2500="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;"
+
+>Innovation has its rewards. As well it should. Your ingenuity is something to be celebrated. And, should you make it to Frankfurt, rest assured it will be. On the line this year:</p>
             </div>
             <div class="table1">
                 <div class="line">
@@ -296,7 +545,10 @@
 </svg>
 
                         </div>
-                        <div class="textIco">Funding for you to further develop your solution</div>
+                        <div class="textIco" data-2000="opacity:0;"
+                        data-2350="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;" >Funding for you to further develop your solution</div>
 
                     </div>
                     <div class="col">
@@ -352,7 +604,10 @@
 </svg>
 
                         </div>
-                        <div class="textIco">Global exposure for you, your solution, and your team</div>
+                        <div class="textIco" data-2000="opacity:0;"
+                        data-2350="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;">Global exposure for you, your solution, and your team</div>
                     </div>
                     <div class="col">
                         <div class="ico">
@@ -390,7 +645,10 @@
 </svg>
 
                         </div>
-                       <div class="textIco"> Local recognition and celebration across your territory</div>
+                       <div class="textIco" data-2000="opacity:0;"
+                        data-3450="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;"> Local recognition and celebration across your territory</div>
                     </div>
                 </div>
                 <div class="line">
@@ -424,7 +682,10 @@
 </svg>
 
                         </div>
-                        <div class="textIco">An all-expenses paid trip to one of Germany’s most beautiful cities</div>
+                        <div class="textIco" data-2000="opacity:0;"
+                        data-2350="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;">An all-expenses paid trip to one of Germany’s most beautiful cities</div>
                     </div>
                     <div class="col">
                         <div class="ico">
@@ -454,7 +715,10 @@
 </svg>
 
                         </div>
-                        <div class="textIco">Individual LOS and Industry incentives and winners</div>
+                        <div class="textIco" data-2000="opacity:0;"
+                        data-2350="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;">Individual LOS and Industry incentives and winners</div>
                     </div>
                     <div class="col">
                         <div class="ico">
@@ -500,7 +764,10 @@
 </svg>
 
                         </div>
-                        <div class="textIco">The coveted Challenge trophy commemorating your achievement</div>
+                        <div class="textIco" data-2000="opacity:0;"
+                        data-2350="opacity:1;"
+                        data-2700="opacity:1;"
+                        data-2850="opacity:0;">The coveted Challenge trophy commemorating your achievement</div>
                     </div>
                 </div>
             </div>
@@ -576,54 +843,94 @@
         <div class="content" id="faq">
 
             <section class="ac-container">
-                <div class="imgSuportLateral imgFaq"></div>
+                <div class="imgSuportLateral imgFaq"
+                    data-2800="width[swing]:0vw;"
+                    data-2988="width[swing]:29vw;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                ></div>
 
                 <div class="texts"> 
                 <div>
                     <input id="ac-1" name="accordion-1" type="checkbox" />
-                    <label for="ac-1">Who can enter the Global Innovation Challenge?</label>
+                    <label for="ac-1"
+                    data-2580="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Who can enter the Global Innovation Challenge?</label>
                     <article class="ac-small">
                         <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-2" name="accordion-1" type="checkbox" />
-                    <label for="ac-2">How will the entrant solutions be judged? What are the evaluation criteria?</label>
+                    <label for="ac-2"
+                    data-2620="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >How will the entrant solutions be judged? What are the evaluation criteria?</label>
                     <article class="ac-small">
                         <p>Submitted solutions will be judged and evaluated against 3 categories: Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-3" name="accordion-1" type="checkbox" />
-                    <label for="ac-3">Who are the judges?</label>
+                    <label for="ac-3"
+                    data-2670="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Who are the judges?</label>
                     <article class="ac-small">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-4" name="accordion-1" type="checkbox" />
-                    <label for="ac-4">Is there a maximum number of solution entries per territory?</label>
+                    <label for="ac-4"
+                    data-2700="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Is there a maximum number of solution entries per territory?</label>
                     <article class="ac-small">
                         <p>Yes. Given the number of solutions that are ultimately entered into the Challenge, a maximum of 10 entries per territory is accepted. To ensure a level of parity within the large diversity of TIO and Non-TIO sizes, the Global Innovation Office reserves the right to further limit the number of entrant solutions. </p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-5" name="accordion-1" type="checkbox" />
-                    <label for="ac-5">Can entries from last year's Challenge enter this year? </label>
+                    <label for="ac-5"
+                    data-2740="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Can entries from last year's Challenge enter this year? </label>
                     <article class="ac-small">
                         <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-6" name="accordion-1" type="checkbox" />
-                    <label for="ac-6">Do the votes and points on the Challenge page influence the final outcome?</label>
+                    <label for="ac-6"
+                    data-2770="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Do the votes and points on the Challenge page influence the final outcome?</label>
                     <article class="ac-small">
                         <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
                     </article>
                 </div>
                 <div>
                     <input id="ac-7" name="accordion-1" type="checkbox" />
-                    <label for="ac-7">Can multiple solutions from the same territory enter the Top 5 Finalists round? </label>
+                    <label for="ac-7"
+                    data-2800="opacity:0;"
+                    data-2988="opacity:1;"
+                    data-3450="opacity:1;"
+                    data-3500="opacity:0;"
+                    >Can multiple solutions from the same territory enter the Top 5 Finalists round? </label>
                     <article class="ac-small">
                         <p>Any interested PwC professionals with a problem-solving client solution that’s revenue-generating, replicable and scalable at the global level can enter. Both Territory Innovation Offices (TIO) and Non-Territory Innovation Offices (Non-TIO) are eligible to compete. </p>
                     </article>
@@ -635,7 +942,12 @@
         <div class="content" id="promote">
 
             <div class="toLeft">
-                <div class="ico">
+                <div class="ico"
+                    data-3300="opacity:0;"
+                    data-3450="opacity:1;"
+                    data-3650="opacity:1;"
+                    data-3700="opacity:0;"
+                >
                     <?xml version="1.0" encoding="iso-8859-1"?>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 2.938 2.901" style="enable-background:new 0 0 2.938 2.901;" xml:space="preserve">
@@ -649,24 +961,50 @@
                         c0.006,0,0.011-0.001,0.016-0.002c0.011,0,0.022,0.002,0.033,0.002C1.486,2.435,1.687,2.326,1.813,2.158z"/>
                     </svg>
                 </div>
-                <h1>Promote the Challenge</h1>
-                <p>No less than PwC Global Chairman Dennis Nally will kick-off this year’s Challenge. Those involved in promoting innovation support firm-wide business objectives. And perhaps raise their own profile in the process.</p>
+                <h1
+
+                    data-3300="opacity:0;"
+                    data-3400="opacity:1;"
+                    data-3650="opacity:1;"
+                    data-3700="opacity:0;"
+                    >Promote the Challenge</h1>
+                <p
+
+                    data-3300="opacity:0;"
+                    data-3548="opacity:1;"
+                    data-3650="opacity:1;"
+                    data-3700="opacity:0;"
+                    >No less than PwC Global Chairman Dennis Nally will kick-off this year’s Challenge. Those involved in promoting innovation support firm-wide business objectives. And perhaps raise their own profile in the process.</p>
             </div>
             
             <div class="toLeft">
-                <div class="btn"><a href="https://pwc-spark.com/docs/DOC-613666">Make me a promoter</a></div>
+                <div class="btn"
+
+
+                    data-3300="opacity:0;"
+                    data-3548="opacity:1;"
+                    data-3650="opacity:1;"
+                    data-3700="opacity:0;"
+                    ><a href="https://pwc-spark.com/docs/DOC-613666">Make me a promoter</a></div>
             </div>
 
             <div class="division"></div>
         </div>
 
         <footer>
-            <div class="logo-pwc">
+            <div class="logo-pwc"
+            data-3800="opacity:0;"
+            data-3900="opacity:1;"
+            >
 
 
 <?xml version="1.0" encoding="iso-8859-1"?>
 <svg version="1.1" id="PwC" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 841.89 595.275" style="enable-background:new 0 0 841.89 595.275;" xml:space="preserve">
+     viewBox="0 0 841.89 595.275" style="enable-background:new 0 0 841.89 595.275;" xml:space="preserve"
+data-3850="opacity:0;"
+data-3950="opacity:1;"
+
+     >
 <g>
     <g>
         <path style="fill:#FFFFFF;" d="M557.028,391.227c-24.728,3.994-37.369,22.26-37.369,54.402c0,32.343,16.84,53.971,42.658,53.971
@@ -701,10 +1039,23 @@
 
 
             </div>
-            <div class="logo-gic"><img src="assets/images/gic/logo-gic-footer.jpg" /></div>
-            <h1>Have questions or need help?</h1>
-            <p class="toLeft">Immediate help contact us by phone<br><a href="+1(000)00000000">+1 (000) 000 - 0000</a></p>
-            <p class="toRight">Inquiries or problems please email us<br><a href="mailto:solution@pwc.com">solution@pwc.com</a></p>
+            <div class="logo-gic"
+            data-3900="opacity:0;"
+            data-4000="opacity:1;"
+            ><img src="assets/images/gic/logo-gic-footer.jpg" /></div>
+            <h1
+            data-3950="opacity:0;"
+            data-4100="opacity:1;"
+            >Have questions or need help?</h1>
+            <p class="toLeft"
+            data-3900="opacity:0;"
+            data-4100="opacity:1;"
+            >Immediate help contact us by phone<br><a href="+1(000)00000000">+1 (000) 000 - 0000</a></p>
+            <p 
+            data-3900="opacity:0;"
+            data-4100="opacity:1;"
+            
+            class="toRight">Inquiries or problems please email us<br><a href="mailto:solution@pwc.com">solution@pwc.com</a></p>
         </footer>
 
 
@@ -715,7 +1066,17 @@
 
 		<script src="assets/js/src/modules/skrollr.min.js"></script>
 	    <script>
-		    skrollr.init({forceHeight: false,smoothScrolling:true,smoothScrollingDuration:200});
+		    skrollr.init({
+                forceHeight: false,
+                smoothScrolling:true,
+                smoothScrollingDuration:200,
+                easing: {
+                    WTF: Math.random,
+                    inverted: function(p) {
+                        return 1-p;
+                    }
+                }
+            });
             
 		</script>
 

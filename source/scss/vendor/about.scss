@@ -39,7 +39,7 @@
             p, h1 {
                 font-weight: 100;
                 font-family: arial;
-                font-size: 29px;
+                font-size: 28px;
 
                 
             }
@@ -148,6 +148,9 @@
                     border: 2px solid #FFF;
                     border-left:0px;
                     width: 70%;
+                    span{
+                    letter-spacing: -25px;
+                    }
                 }
             }
         }

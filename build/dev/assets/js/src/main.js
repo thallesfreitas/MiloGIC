@@ -1,6 +1,10 @@
 $(document).ready(function(){
 	$('.local-scroll').localScroll({offset: {top: -110},duration: 1500,easing:'easeInOutExpo'});
+    
+
+
 	$(window).scroll(function(){
+        console.log($(window).scrollTop());
 		if ($(window).scrollTop() > ($(window).height()-$('.main-nav').height())){
 		    $('.main-nav').addClass("sticky");
 		}else{
